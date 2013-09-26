@@ -1,0 +1,600 @@
+
+Cygwin Configuration Diagnostics
+Current System Time: Thu Sep 26 14:15:47 2013
+
+Windows 7 Enterprise Ver 6.1 Build 7601 Service Pack 1
+
+Path:	C:\cygwin64\usr\local\bin
+	C:\cygwin64\bin
+	C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+	C:\Users\dsandler\hadoop-trunk\protoc-2.5.0-win32
+	C:\Informatica\9.5.1\clients\DT\bin
+	C:\Informatica\9.5.1\clients\tools\datadirect
+	C:\Informatica\9.5.1\clients\tools\odbcdrv
+	C:\Program Files\R\R-2.15.1\bin\x64
+	C:\PostgreSQL\9.0\bin
+	C:\oracle\product\11.2.0\dbhome_1\bin
+	C:\oraclexe\app\oracle\product\11.2.0\server\bin
+	C:\Informatica\PowerCenter9.0.1\clients\tools\datadirect
+	C:\Informatica\PowerCenter9.0.1\clients\DeveloperClient\bin
+	C:\Oracle\product\11.2.0\client_1\bin
+	C:\Windows\system32
+	C:\Windows
+	C:\Windows\System32\Wbem
+	C:\Windows\System32\WindowsPowerShell\v1.0
+	C:\Program Files\ThinkPad\Bluetooth Software
+	C:\Program Files\ThinkPad\Bluetooth Software\syswow64
+	C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static
+	C:\Program Files\Intel\WiFi\bin
+	C:\Program Files\Common Files\Intel\WirelessCommon
+	C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn
+	C:\Program Files\Microsoft SQL Server\100\Tools\Binn
+	C:\Program Files\Microsoft SQL Server\100\DTS\Binn
+	C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE
+	C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn
+	C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies
+	C:\Program Files (x86)\Common Files\MicroStrategy
+	C:\Program Files (x86)\MicroStrategy\Desktop
+	C:\Program Files (x86)\Common Files\MicroStrategy\JRE\160_07\Win32\bin
+	C:\Program Files (x86)\Common Files\MicroStrategy\Documentation
+	C:\Program Files (x86)\Git\cmd
+	C:\Program Files (x86)\Git\bin
+	C:\Program Files (x86)\Progress\DataDirect\Connect_for_ODBC_71\Drivers
+	C:\Program Files (x86)\Java\jre7\bin\client
+	C:\Program Files (x86)\OpenLink Software\UDA\bin
+	C:\Program Files (x86)\Common Files\Easysoft\Shared
+	C:\Program Files\Common Files\Easysoft\Shared
+	C:\scala\scala-2.10.1
+	C:\Program Files\Java\jdk1.7.0_05\bin
+	C:\apache-maven-3.1.0\bin
+	C:\WinAnt\bin
+
+Output from C:\cygwin64\bin\id.exe
+UID: 400(dsandler) GID: 401(mkpasswd)
+401(mkpasswd)
+
+SysDir: C:\Windows\system32
+WinDir: C:\Windows
+
+USER = 'dsandler'
+LD_LIBRARY_PATH = '/usr/lib'
+PWD = '/cygdrive/c/Users/dsandler'
+HOME = '/cygdrive/c/Users/dsandler'
+
+Use '-r' to scan registry
+
+obcaseinsensitive set to 1
+
+Cygwin installations found in the registry:
+  System: Key: e022582115c10879 Path: C:\cygwin64
+
+c:  hd  NTFS    305142Mb  82% CP CS UN PA FC     
+d:  cd             N/A    N/A                    
+
+C:\cygwin64      /          system  binary,auto
+C:\cygwin64\bin  /usr/bin   system  binary,auto
+C:\cygwin64\lib  /usr/lib   system  binary,auto
+cygdrive prefix  /cygdrive  user    binary,posix=0,auto
+
+Found: C:\cygwin64\bin\awk
+Found: C:\Program Files (x86)\Git\bin\awk
+ -> C:\cygwin64\bin\gawk.exe
+Found: C:\cygwin64\bin\bash.exe
+Found: C:\Program Files (x86)\Git\bin\bash.exe
+Found: C:\cygwin64\bin\cat.exe
+Found: C:\Program Files (x86)\Git\bin\cat.exe
+Found: C:\cygwin64\bin\cp.exe
+Found: C:\Program Files (x86)\Git\bin\cp.exe
+Found: C:\cygwin64\bin\cpp.exe
+Found: C:\cygwin64\bin\crontab.exe
+Found: C:\cygwin64\bin\find.exe
+Found: C:\Windows\system32\find.exe
+Found: C:\Program Files (x86)\Git\bin\find.exe
+Found: C:\cygwin64\bin\gcc.exe
+Not Found: gdb
+Found: C:\cygwin64\bin\grep.exe
+Found: C:\Program Files (x86)\Git\bin\grep.exe
+Found: C:\cygwin64\bin\kill.exe
+Found: C:\Program Files (x86)\Git\bin\kill.exe
+Found: C:\cygwin64\bin\ld.exe
+Found: C:\cygwin64\bin\ls.exe
+Found: C:\Program Files (x86)\Git\bin\ls.exe
+Found: C:\cygwin64\bin\make.exe
+Found: C:\cygwin64\bin\mv.exe
+Found: C:\Program Files (x86)\Git\bin\mv.exe
+Found: C:\Program Files (x86)\Git\bin\patch.exe
+Found: C:\cygwin64\bin\perl.exe
+Found: C:\Program Files (x86)\Git\bin\perl.exe
+Found: C:\cygwin64\bin\rm.exe
+Found: C:\Program Files (x86)\Git\bin\rm.exe
+Found: C:\cygwin64\bin\sed.exe
+Found: C:\Program Files (x86)\Git\bin\sed.exe
+Found: C:\cygwin64\bin\ssh.exe
+Found: C:\Program Files (x86)\Git\bin\ssh.exe
+Found: C:\cygwin64\bin\sh.exe
+Found: C:\Program Files (x86)\Git\bin\sh.exe
+Found: C:\cygwin64\bin\tar.exe
+Found: C:\Program Files (x86)\Git\bin\tar.exe
+Found: C:\cygwin64\bin\test.exe
+Found: C:\cygwin64\bin\vi.exe
+Found: C:\Program Files (x86)\Git\bin\vi
+Found: C:\cygwin64\bin\vim.exe
+Found: C:\Program Files (x86)\Git\bin\vim
+
+  127k 2013/06/23 C:\cygwin64\bin\cygapr-1-0.dll
+  115k 2013/08/11 C:\cygwin64\bin\cygaprutil-1-0.dll
+  575k 2013/05/30 C:\cygwin64\bin\cygarchive-13.dll
+ 2568k 2013/06/23 C:\cygwin64\bin\cygasn1-8.dll
+  107k 2013/08/05 C:\cygwin64\bin\cygatk-1.0-0.dll
+  144k 2013/08/05 C:\cygwin64\bin\cygatk-bridge-2.0-0.dll
+   87k 2013/07/27 C:\cygwin64\bin\cygatomic-1.dll
+  117k 2013/08/05 C:\cygwin64\bin\cygatspi-0.dll
+   16k 2013/03/26 C:\cygwin64\bin\cygattr-1.dll
+   59k 2013/06/04 C:\cygwin64\bin\cygavahi-client-3.dll
+   42k 2013/06/04 C:\cygwin64\bin\cygavahi-common-3.dll
+   13k 2013/06/04 C:\cygwin64\bin\cygavahi-glib-1.dll
+   64k 2013/03/07 C:\cygwin64\bin\cygbz2-1.dll
+  981k 2013/07/23 C:\cygwin64\bin\cygcairo-2.dll
+   26k 2013/07/23 C:\cygwin64\bin\cygcairo-gobject-2.dll
+  122k 2013/07/23 C:\cygwin64\bin\cygcairo-script-interpreter-2.dll
+  117k 2013/05/05 C:\cygwin64\bin\cygcloog-isl-4.dll
+   12k 2013/03/11 C:\cygwin64\bin\cygcom_err-2.dll
+    9k 2013/03/07 C:\cygwin64\bin\cygcrypt-0.dll
+ 1655k 2013/03/07 C:\cygwin64\bin\cygcrypto-1.0.0.dll
+  395k 2013/08/13 C:\cygwin64\bin\cygcurl-4.dll
+   23k 2013/04/12 C:\cygwin64\bin\cygdatrie-1.dll
+ 1526k 2013/03/08 C:\cygwin64\bin\cygdb-5.3.dll
+  240k 2013/06/13 C:\cygwin64\bin\cygdbus-1-3.dll
+  111k 2013/03/08 C:\cygwin64\bin\cygdb_cxx-5.3.dll
+  472k 2013/03/08 C:\cygwin64\bin\cygdb_sql-5.3.dll
+  155k 2013/03/15 C:\cygwin64\bin\cygedit-0.dll
+  147k 2013/07/31 C:\cygwin64\bin\cygexpat-1.dll
+   31k 2013/08/06 C:\cygwin64\bin\cygfam-0.dll
+   22k 2013/05/12 C:\cygwin64\bin\cygffi-6.dll
+  210k 2013/08/05 C:\cygwin64\bin\cygfontconfig-1.dll
+   25k 2013/06/06 C:\cygwin64\bin\cygfontenc-1.dll
+   53k 2013/05/06 C:\cygwin64\bin\cygformw-10.dll
+  576k 2013/05/14 C:\cygwin64\bin\cygfreetype-6.dll
+   67k 2013/07/27 C:\cygwin64\bin\cyggcc_s-seh-1.dll
+  176k 2013/08/05 C:\cygwin64\bin\cyggck-1-0.dll
+  467k 2013/08/05 C:\cygwin64\bin\cyggcr-base-3-1.dll
+  354k 2013/08/05 C:\cygwin64\bin\cyggcr-ui-3-1.dll
+  472k 2013/03/13 C:\cygwin64\bin\cyggcrypt-11.dll
+   29k 2013/03/11 C:\cygwin64\bin\cyggdbm-4.dll
+   12k 2013/03/11 C:\cygwin64\bin\cyggdbm_compat-4.dll
+  517k 2013/08/05 C:\cygwin64\bin\cyggdk-3-0.dll
+  601k 2013/08/05 C:\cygwin64\bin\cyggdk-x11-2.0-0.dll
+  213k 2013/08/05 C:\cygwin64\bin\cyggdk_pixbuf-2.0-0.dll
+ 1107k 2013/07/27 C:\cygwin64\bin\cyggfortran-3.dll
+ 1156k 2013/08/07 C:\cygwin64\bin\cyggio-2.0-0.dll
+  894k 2013/08/07 C:\cygwin64\bin\cygglib-2.0-0.dll
+   14k 2013/08/07 C:\cygwin64\bin\cyggmodule-2.0-0.dll
+  443k 2013/08/04 C:\cygwin64\bin\cyggmp-10.dll
+  125k 2013/08/05 C:\cygwin64\bin\cyggnome-keyring-0.dll
+  904k 2013/05/29 C:\cygwin64\bin\cyggnutls-28.dll
+   84k 2013/05/29 C:\cygwin64\bin\cyggnutls-openssl-27.dll
+   83k 2013/05/29 C:\cygwin64\bin\cyggnutls-xssl-0.dll
+   41k 2013/05/29 C:\cygwin64\bin\cyggnutlsxx-28.dll
+  271k 2013/08/07 C:\cygwin64\bin\cyggobject-2.0-0.dll
+   46k 2013/07/27 C:\cygwin64\bin\cyggomp-1.dll
+   17k 2013/03/13 C:\cygwin64\bin\cyggpg-error-0.dll
+  116k 2013/08/05 C:\cygwin64\bin\cyggraphite2-3.dll
+ 2247k 2013/06/23 C:\cygwin64\bin\cyggssapi-3.dll
+    9k 2013/08/07 C:\cygwin64\bin\cyggthread-2.0-0.dll
+ 4505k 2013/08/05 C:\cygwin64\bin\cyggtk-3-0.dll
+ 3918k 2013/08/05 C:\cygwin64\bin\cyggtk-x11-2.0-0.dll
+  177k 2013/08/05 C:\cygwin64\bin\cyggvfscommon-0.dll
+  310k 2013/08/05 C:\cygwin64\bin\cygharfbuzz-0.dll
+   10k 2013/08/05 C:\cygwin64\bin\cygharfbuzz-icu-0.dll
+  101k 2013/06/23 C:\cygwin64\bin\cygheimbase-1.dll
+  135k 2013/06/23 C:\cygwin64\bin\cygheimntlm-0.dll
+   29k 2013/03/14 C:\cygwin64\bin\cyghistory7.dll
+  166k 2013/05/14 C:\cygwin64\bin\cyghogweed-2.dll
+  329k 2013/07/24 C:\cygwin64\bin\cyghttpd2core.dll
+ 1412k 2013/06/23 C:\cygwin64\bin\cyghx509-5.dll
+   78k 2013/03/15 C:\cygwin64\bin\cygICE-6.dll
+  998k 2013/03/07 C:\cygwin64\bin\cygiconv-2.dll
+21806k 2013/06/25 C:\cygwin64\bin\cygicudata51.dll
+ 1717k 2013/06/25 C:\cygwin64\bin\cygicui18n51.dll
+   43k 2013/06/25 C:\cygwin64\bin\cygicuio51.dll
+  305k 2013/06/25 C:\cygwin64\bin\cygicule51.dll
+   38k 2013/06/25 C:\cygwin64\bin\cygiculx51.dll
+ 1231k 2013/06/25 C:\cygwin64\bin\cygicuuc51.dll
+  195k 2013/04/05 C:\cygwin64\bin\cygidn-11.dll
+   38k 2013/06/24 C:\cygwin64\bin\cygintl-8.dll
+  294k 2013/09/09 C:\cygwin64\bin\cygiodbc-2.dll
+   66k 2013/09/09 C:\cygwin64\bin\cygiodbcinst-2.dll
+  888k 2013/05/05 C:\cygwin64\bin\cygisl-10.dll
+  271k 2013/04/11 C:\cygwin64\bin\cygjasper-1.dll
+  236k 2013/04/12 C:\cygwin64\bin\cygjpeg-8.dll
+ 3287k 2013/06/23 C:\cygwin64\bin\cygkrb5-26.dll
+   44k 2013/06/18 C:\cygwin64\bin\cyglber-2-4-2.dll
+  243k 2013/06/18 C:\cygwin64\bin\cygldap-2-4-2.dll
+  260k 2013/06/18 C:\cygwin64\bin\cygldap_r-2-4-2.dll
+    6k 2013/08/31 C:\cygwin64\bin\cyglsa64.dll
+   34k 2013/05/27 C:\cygwin64\bin\cygltdl-7.dll
+  129k 2013/03/07 C:\cygwin64\bin\cyglzma-5.dll
+  124k 2013/03/19 C:\cygwin64\bin\cyglzo2-2.dll
+  102k 2013/03/19 C:\cygwin64\bin\cygmagic-1.dll
+   28k 2013/05/06 C:\cygwin64\bin\cygmenuw-10.dll
+   42k 2013/08/12 C:\cygwin64\bin\cygmetalink-3.dll
+   85k 2013/05/05 C:\cygwin64\bin\cygmpc-3.dll
+  319k 2013/05/05 C:\cygwin64\bin\cygmpfr-4.dll
+ 2834k 2013/05/31 C:\cygwin64\bin\cygmysqlclient-18.dll
+   52k 2013/05/06 C:\cygwin64\bin\cygncurses++w-10.dll
+  295k 2013/05/06 C:\cygwin64\bin\cygncursesw-10.dll
+  126k 2013/04/24 C:\cygwin64\bin\cygneon-27.dll
+  177k 2013/05/14 C:\cygwin64\bin\cygnettle-4.dll
+  122k 2013/07/27 C:\cygwin64\bin\cygobjc-4.dll
+  210k 2013/05/28 C:\cygwin64\bin\cygp11-kit-0.dll
+   13k 2013/05/06 C:\cygwin64\bin\cygpanelw-10.dll
+  260k 2013/08/05 C:\cygwin64\bin\cygpango-1.0-0.dll
+   41k 2013/08/05 C:\cygwin64\bin\cygpangocairo-1.0-0.dll
+   69k 2013/08/05 C:\cygwin64\bin\cygpangoft2-1.0-0.dll
+   27k 2013/08/05 C:\cygwin64\bin\cygpangoxft-1.0-0.dll
+  289k 2013/08/04 C:\cygwin64\bin\cygpcre-1.dll
+ 1580k 2013/03/11 C:\cygwin64\bin\cygperl5_14.dll
+  644k 2013/08/07 C:\cygwin64\bin\cygpixman-1-0.dll
+  147k 2013/03/19 C:\cygwin64\bin\cygpng15-15.dll
+   40k 2013/03/07 C:\cygwin64\bin\cygpopt-0.dll
+  143k 2013/08/01 C:\cygwin64\bin\cygpq-5.dll
+10064k 2013/09/23 C:\cygwin64\bin\cygprotobuf-8.dll
+ 1130k 2013/09/23 C:\cygwin64\bin\cygprotobuf-lite-8.dll
+11694k 2013/09/23 C:\cygwin64\bin\cygprotoc-8.dll
+  122k 2013/04/21 C:\cygwin64\bin\cygproxy-1.dll
+  302k 2013/07/27 C:\cygwin64\bin\cygquadmath-0.dll
+  193k 2013/03/14 C:\cygwin64\bin\cygreadline7.dll
+  424k 2013/06/23 C:\cygwin64\bin\cygroken-18.dll
+ 1815k 2013/08/13 C:\cygwin64\bin\cygruby191.dll
+   96k 2013/08/11 C:\cygwin64\bin\cygsasl2-3.dll
+  247k 2013/08/05 C:\cygwin64\bin\cygsecret-1-0.dll
+   81k 2013/08/16 C:\cygwin64\bin\cygserf-1-0.dll
+   28k 2013/03/15 C:\cygwin64\bin\cygSM-6.dll
+  555k 2013/08/05 C:\cygwin64\bin\cygsoup-2.4-1.dll
+   11k 2013/08/05 C:\cygwin64\bin\cygsoup-gnome-2.4-1.dll
+  644k 2013/07/26 C:\cygwin64\bin\cygsqlite3-0.dll
+  141k 2013/03/11 C:\cygwin64\bin\cygssh2-1.dll
+  377k 2013/03/07 C:\cygwin64\bin\cygssl-1.0.0.dll
+   11k 2013/07/27 C:\cygwin64\bin\cygssp-0.dll
+  892k 2013/07/27 C:\cygwin64\bin\cygstdc++-6.dll
+   12k 2013/08/30 C:\cygwin64\bin\cygsvn_auth_gnome_keyring-1-0.dll
+  355k 2013/08/30 C:\cygwin64\bin\cygsvn_client-1-0.dll
+   63k 2013/08/30 C:\cygwin64\bin\cygsvn_delta-1-0.dll
+   70k 2013/08/30 C:\cygwin64\bin\cygsvn_diff-1-0.dll
+   30k 2013/08/30 C:\cygwin64\bin\cygsvn_fs-1-0.dll
+  150k 2013/08/30 C:\cygwin64\bin\cygsvn_fs_base-1-0.dll
+  179k 2013/08/30 C:\cygwin64\bin\cygsvn_fs_fs-1-0.dll
+   10k 2013/08/30 C:\cygwin64\bin\cygsvn_fs_util-1-0.dll
+   45k 2013/08/30 C:\cygwin64\bin\cygsvn_ra-1-0.dll
+   30k 2013/08/30 C:\cygwin64\bin\cygsvn_ra_local-1-0.dll
+  162k 2013/08/30 C:\cygwin64\bin\cygsvn_ra_serf-1-0.dll
+   94k 2013/08/30 C:\cygwin64\bin\cygsvn_ra_svn-1-0.dll
+  181k 2013/08/30 C:\cygwin64\bin\cygsvn_repos-1-0.dll
+  380k 2013/08/30 C:\cygwin64\bin\cygsvn_subr-1-0.dll
+   37k 2013/08/30 C:\cygwin64\bin\cygsvn_swig_perl-1-0.dll
+   77k 2013/08/30 C:\cygwin64\bin\cygsvn_swig_py-1-0.dll
+   59k 2013/08/30 C:\cygwin64\bin\cygsvn_swig_ruby-1-0.dll
+  617k 2013/08/30 C:\cygwin64\bin\cygsvn_wc-1-0.dll
+   69k 2013/04/22 C:\cygwin64\bin\cygtasn1-6.dll
+   31k 2013/04/12 C:\cygwin64\bin\cygthai-0.dll
+   51k 2013/05/06 C:\cygwin64\bin\cygticw-10.dll
+  359k 2013/04/24 C:\cygwin64\bin\cygtiff-5.dll
+   10k 2013/04/24 C:\cygwin64\bin\cygtiffxx-5.dll
+   15k 2013/03/11 C:\cygwin64\bin\cyguuid-1.dll
+  275k 2013/06/23 C:\cygwin64\bin\cygwind-0.dll
+   29k 2013/04/18 C:\cygwin64\bin\cygwrap-0.dll
+ 1120k 2013/06/06 C:\cygwin64\bin\cygX11-6.dll
+   12k 2013/06/06 C:\cygwin64\bin\cygXau-6.dll
+   97k 2013/08/14 C:\cygwin64\bin\cygxcb-1.dll
+   31k 2013/08/14 C:\cygwin64\bin\cygxcb-render-0.dll
+   11k 2013/08/14 C:\cygwin64\bin\cygxcb-shm-0.dll
+   11k 2013/03/18 C:\cygwin64\bin\cygXcomposite-1.dll
+   34k 2013/06/06 C:\cygwin64\bin\cygXcursor-1.dll
+   10k 2013/04/08 C:\cygwin64\bin\cygXdamage-1.dll
+   21k 2013/03/13 C:\cygwin64\bin\cygXdmcp-6.dll
+   56k 2013/06/06 C:\cygwin64\bin\cygXext-6.dll
+   19k 2013/06/06 C:\cygwin64\bin\cygXfixes-3.dll
+   73k 2013/03/14 C:\cygwin64\bin\cygXft-2.dll
+   56k 2013/07/29 C:\cygwin64\bin\cygXi-6.dll
+   10k 2013/06/06 C:\cygwin64\bin\cygXinerama-1.dll
+ 1212k 2013/04/21 C:\cygwin64\bin\cygxml2-2.dll
+   34k 2013/06/06 C:\cygwin64\bin\cygXrandr-2.dll
+   35k 2013/06/14 C:\cygwin64\bin\cygXrender-1.dll
+   12k 2013/03/14 C:\cygwin64\bin\cygXss-1.dll
+  320k 2013/06/06 C:\cygwin64\bin\cygXt-6.dll
+   21k 2013/06/06 C:\cygwin64\bin\cygXtst-6.dll
+  120k 2013/03/14 C:\cygwin64\bin\cygyaml-0-2.dll
+   79k 2013/05/09 C:\cygwin64\bin\cygz.dll
+ 3071k 2013/08/31 C:\cygwin64\bin\cygwin1.dll
+    Cygwin DLL version info:
+        DLL version: 1.7.25
+        DLL epoch: 19
+        DLL old termios: 5
+        DLL malloc env: 28
+        Cygwin conv: 181
+        API major: 0
+        API minor: 270
+        Shared data: 5
+        DLL identifier: cygwin1
+        Mount registry: 3
+        Cygwin registry name: Cygwin
+        Program options name: Program Options
+        Installations name: Installations
+        Cygdrive default prefix: 
+        Build date: 
+        Shared id: cygwin1S5
+
+
+Service             : sshd
+Display name        : CYGWIN sshd
+Current State       : Stopped
+Command             : /usr/sbin/sshd -D
+
+
+Cygwin Package Information
+Package                   Version            Status
+_autorebase               000013-1           OK
+_update-info-dir          00235-1            OK
+alternatives              1.3.30c-10         OK
+apache2                   2.2.23-3           OK
+at-spi2-core              2.8.0-1            OK
+autossh                   1.4c-1             OK
+base-cygwin               3.3-1              OK
+base-files                4.1-1              OK
+bash                      4.1.11-2           OK
+binutils                  2.23.52-5          OK
+bzip2                     1.0.6-2            OK
+ca-certificates           1.87-1             OK
+coreutils                 8.15-3             OK
+cron                      4.1-61             OK
+crypt                     1.1-1              OK
+csih                      0.9.7-1            OK
+curl                      7.32.0-1           OK
+cygrunsrv                 1.42-1             OK
+cygutils                  1.4.14-1           OK
+cygwin                    1.7.25-1           OK
+cygwin-debuginfo          1.7.25-1           OK
+cygwin-doc                1.7-1              OK
+cygwin-x-doc              1.1.20130916-1     OK
+dash                      0.5.7-4            OK
+dbus                      1.6.12-1           OK
+dconf-service             0.16.1-1           OK
+desktop-file-utils        0.21-1             OK
+diffutils                 3.3-1              OK
+editrights                1.02-1             OK
+emacs                     24.3-7             OK
+file                      5.13-1             OK
+findutils                 4.5.11-1           OK
+font-adobe-dpi100         1.0.2-1            OK
+font-encodings            1.0.4-1            OK
+fontconfig                2.10.93-1          OK
+gamin                     0.1.10-14          OK
+gawk                      4.1.0-1            OK
+gcc-core                  4.8.1-3            OK
+gcc-fortran               4.8.1-3            OK
+gcc-g++                   4.8.1-3            OK
+gcc-objc                  4.8.1-3            OK
+gcc-objc++                4.8.1-3            OK
+gcc-tools-epoch1-autoconf 2.59-2             OK
+gcc-tools-epoch1-automake 1.9.6-2            OK
+gcc-tools-epoch2-autoconf 2.64-2             OK
+gcc-tools-epoch2-automake 1.11.6-1           OK
+gccmakedep                1.0.2-1            OK
+gcr                       3.8.2-1            OK
+glib2.0-networking        2.36.2-1           OK
+gnome-icon-theme          3.8.3-1            OK
+gnome-keyring             3.8.2-1            OK
+grep                      2.14-2             OK
+groff                     1.22.2-1           OK
+gsettings-desktop-schemas 3.8.2-1            OK
+gtk-update-icon-cache     3.8.2-1            OK
+gvfs                      1.16.3-1           OK
+gvim                      7.3.1314-1         OK
+gzip                      1.4-1              OK
+hicolor-icon-theme        0.12-1             OK
+hostname                  3.13-1             OK
+ipc-utils                 1.0-2              OK
+less                      458-1              OK
+libapr1                   1.4.8-1            OK
+libaprutil1               1.5.2-4            OK
+libarchive13              3.1.2-2            OK
+libasn1_8                 1.5.2-4            OK
+libatk-bridge2.0_0        2.8.1-1            OK
+libatk1.0_0               2.8.0-1            OK
+libatomic1                4.8.1-3            OK
+libatspi0                 2.8.0-1            OK
+libattr1                  2.4.46-1           OK
+libavahi-client3          0.6.31-2           OK
+libavahi-common3          0.6.31-2           OK
+libavahi-glib1            0.6.31-2           OK
+libbz2_1                  1.0.6-2            OK
+libcairo2                 1.12.14-3          OK
+libcloog-isl4             0.18.0-2           OK
+libcom_err2               1.42.7-1           OK
+libcrypt0                 1.1-1              OK
+libcurl4                  7.32.0-1           OK
+libdatrie1                0.2.6-1            OK
+libdb5.3                  5.3.21-1           OK
+libdbus1_3                1.6.12-1           OK
+libedit0                  20120311-1         OK
+libexpat1                 2.1.0-3            OK
+libfam0                   0.1.10-14          OK
+libffi6                   3.0.13-1           OK
+libfontconfig1            2.10.93-1          OK
+libfontenc1               1.1.2-1            OK
+libfreetype6              2.4.12-1           OK
+libgcc1                   4.8.1-3            OK
+libgck1_0                 3.8.2-1            OK
+libgcr3-common            3.8.2-1            OK
+libgcr3_1                 3.8.2-1            OK
+libgcrypt11               1.5.0-1            OK
+libgdbm4                  1.10-2             OK
+libgdk_pixbuf2.0_0        2.28.2-1           OK
+libgfortran3              4.8.1-3            OK
+libglib2.0_0              2.36.4-1           OK
+libgmp10                  5.1.2-1            OK
+libgnome-keyring0         3.8.0-1            OK
+libgnutls28               3.2.0-4            OK
+libgomp1                  4.8.1-3            OK
+libgpg-error0             1.10-1             OK
+libgraphite2_3            1.2.3-1            OK
+libgssapi3                1.5.2-4            OK
+libgtk2.0_0               2.24.20-1          OK
+libgtk3_0                 3.8.2-1            OK
+libharfbuzz0              0.9.19-1           OK
+libheimbase1              1.5.2-4            OK
+libheimntlm0              1.5.2-4            OK
+libhogweed2               2.7-1              OK
+libhx509_5                1.5.2-4            OK
+libICE6                   1.0.8-1            OK
+libiconv2                 1.14-1             OK
+libicu51                  51.2-1             OK
+libidn11                  1.26-1             OK
+libintl8                  0.18.1.1-3         OK
+libiodbc2                 3.52.8-2           OK
+libisl10                  0.11.1-2           OK
+libjasper1                1.900.1-13         OK
+libjpeg8                  1.2.1-2            OK
+libkrb5_26                1.5.2-4            OK
+libltdl7                  2.4.2-3            OK
+liblzma-devel             5.0.4-1            OK
+liblzma5                  5.0.4-1            OK
+liblzo2-devel             2.06-1             OK
+liblzo2-doc               2.06-1             OK
+liblzo2_2                 2.06-1             OK
+libmetalink3              0.1.2-1            OK
+libmpc3                   1.0.1-2            OK
+libmpfr4                  3.1.2-1            OK
+libmysqlclient18          5.5.31-1           OK
+libncursesw10             5.9-4              OK
+libneon27                 0.29.6-1           OK
+libnettle4                2.7-1              OK
+libobjc4                  4.8.1-3            OK
+libopenldap2_4_2          2.4.35-1           OK
+libopenssl100             1.0.1e-1           OK
+libp11-kit0               0.19.1-1           OK
+libpango1.0_0             1.34.1-1           OK
+libpcre1                  8.33-1             OK
+libpixman1_0              0.30.2-1           OK
+libpng15                  1.5.14-1           OK
+libpopt0                  1.16-1             OK
+libpq5                    9.2.4-2            OK
+libproxy1                 0.4.11-2           OK
+libquadmath0              4.8.1-3            OK
+libreadline7              6.2-1              OK
+libroken18                1.5.2-4            OK
+libsasl2_3                2.1.26-5           OK
+libsecret1_0              0.15-1             OK
+libserf1_0                1.3.1-1            OK
+libSM6                    1.2.1-1            OK
+libsoup-gnome2.4_1        2.42.2-1           OK
+libsoup2.4_1              2.42.2-1           OK
+libsqlite3_0              3.7.17-3           OK
+libssh2-debuginfo         1.4.2-1            OK
+libssh2-devel             1.4.2-1            OK
+libssh2_1                 1.4.2-1            OK
+libssp0                   4.8.1-3            OK
+libstdc++6                4.8.1-3            OK
+libtasn1_6                3.3-1              OK
+libthai0                  0.1.19-1           OK
+libtiff5                  3.9.7-3            OK
+libuuid1                  2.21.2-1           OK
+libwind0                  1.5.2-4            OK
+libwrap0                  7.6-21             OK
+libX11_6                  1.6.0-1            OK
+libXau6                   1.0.8-1            OK
+libxcb-render0            1.9.1-2            OK
+libxcb-shm0               1.9.1-2            OK
+libxcb1                   1.9.1-2            OK
+libXcomposite1            0.4.3-1            OK
+libXcursor1               1.1.14-1           OK
+libXdamage1               1.1.4-1            OK
+libXdmcp6                 1.1.1-1            OK
+libXext6                  1.3.2-1            OK
+libXfixes3                5.0.1-1            OK
+libXft2                   2.3.1-1            OK
+libXi6                    1.7.2-1            OK
+libXinerama1              1.1.3-1            OK
+libxml2                   2.9.1-1            OK
+libXrandr2                1.4.1-1            OK
+libXrender1               0.9.8-1            OK
+libXss1                   1.2.2-1            OK
+libXt6                    1.1.4-1            OK
+libXtst6                  1.2.2-1            OK
+libyaml0_2                0.1.4-1            OK
+login                     1.10-10            OK
+lzip                      1.14-1             OK
+lziprecover               1.14-1             OK
+lzo2-debuginfo            2.06-1             OK
+m4                        1.4.16-2           OK
+make                      3.82.90-1          OK
+man                       1.6g-2             OK
+mintty                    1.2-beta1-1        OK
+mkfontdir                 1.0.7-1            OK
+mkfontscale               1.1.1-1            OK
+mysql                     5.5.31-1           OK
+mysql-test                5.5.31-1           OK
+mysqld                    5.5.31-1           OK
+odbc-mysql                5.2.5-1            OK
+odbc-psql                 09.02.0100-1       OK
+odbc-sqlite3              0.993-1            OK
+openssh                   6.2p2-1            OK
+openssh-debuginfo         6.2p2-1            OK
+openssl                   1.0.1e-1           OK
+openssl-devel             1.0.1e-1           OK
+perl                      5.14.4-1           OK
+perl-DBD-mysql            4.023-1            OK
+perl-DBI                  1.623-2            OK
+perl-Params-Util          1.07-1             OK
+perl-URI                  1.60-1             OK
+postgresql                9.2.4-2            OK
+postgresql-client         9.2.4-2            OK
+postgresql-contrib        9.2.4-2            OK
+postgresql-devel          9.2.4-2            OK
+postgresql-doc            9.2.4-2            OK
+postgresql-plperl         9.2.4-2            OK
+python                    2.7.5-2            OK
+python-tkinter            2.7.5-2            OK
+rebase                    4.4.0.1-1          OK
+ruby                      1.9.3-p448-1       OK
+ruby-json                 1.8.0-1            OK
+ruby-rake                 10.0.4-1           OK
+ruby-rdoc                 3.12.2-1           OK
+run                       1.3.0-1            OK
+sed                       4.2.2-3            OK
+shared-mime-info          1.1-1              OK
+shutdown                  1.10-1             OK
+sqlite3                   3.7.17-3           OK
+subversion                1.8.3-1            OK
+subversion-apache2        1.8.3-1            OK
+subversion-devel          1.8.3-1            OK
+subversion-gnome          1.8.3-1            OK
+subversion-perl           1.8.3-1            OK
+subversion-python         1.8.3-1            OK
+subversion-ruby           1.8.3-1            OK
+subversion-tools          1.8.3-1            OK
+svn-load                  1.3-1              OK
+svn_load_dirs             1.8.0-1            OK
+tar                       1.26-1             OK
+tcl                       8.5.11-1           OK
+tcl-db                    5.3.21-1           OK
+tcl-tix                   8.4.3-2            OK
+tcl-tk                    8.5.11-1           OK
+terminfo                  5.9-4              OK
+texinfo                   4.13-1             OK
+tzcode                    2013c-1            OK
+unzip                     6.0-1              OK
+vim                       7.3.1314-1         OK
+vim-common                7.3.1314-1         OK
+vim-minimal               7.3.1314-1         OK
+w32api-headers            3.0b_svn5962-1     OK
+w32api-runtime            3.0b_svn5962-2     OK
+wget                      1.13.4-1           OK
+which                     2.20-2             OK
+whois                     5.0.26-1           OK
+xxd                       7.3.1314-1         OK
+xz                        5.0.4-1            OK
+zip                       3.0-1              OK
+zlib-devel                1.2.8-1            OK
+zlib0                     1.2.8-1            OK
+Use -h to see help about each section
